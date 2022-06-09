@@ -1,0 +1,254 @@
+/** @format */
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  margin: 25px;
+  transform: translateY(-200px);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(78, 78, 78, 0.671) 1px 50px 70px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+  }
+}
+
+.data-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 30%;
+  height: 100%;
+  background-color: rgb(240, 242, 245);
+  min-width: 400px;
+  max-width: 400px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.chat-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  border-bottom: 10px solid rgb(0, 253, 34);
+}
+
+.user {
+  height: 59px;
+  width: 100%;
+  background-color: rgb(240, 242, 245);
+  border-radius: 5px 0px 0px 0px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(230, 230, 230);
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+.first-tab {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 5px 0px 0px 0px;
+  justify-content: space-between;
+  height: 59px;
+  width: 100%;
+  min-width: 150px;
+  background-color: rgb(240, 242, 245);
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+#Pimg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 20px;
+  background-color: rgb(0, 253, 34);
+}
+
+.Lborder {
+  border-radius: 5px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 100px;
+}
+
+.icons1 {
+  height: 23px;
+  width: 23px;
+  color: rgba(84, 101, 111);
+  scale: 0.8;
+  cursor: pointer;
+}
+.icons2 {
+  height: 23px;
+  width: 23px;
+  scale: 0.8;
+  cursor: pointer;
+}
+.icons3 {
+  height: 23px;
+  width: 23px;
+  scale: 0.8;
+  margin-right: 25px;
+}
+
+.chat-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(102, 102, 102);
+  font-weight: 100;
+  font-size: 33px;
+}
+
+.chat-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  color: rgb(102, 102, 102);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.chat-a {
+  color: rgb(0, 93, 54);
+  text-decoration: none;
+}
+
+.searchTab-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 99px;
+  margin-left: 0;
+}
+
+.search-input {
+  border: none;
+  background-color: rgb(240, 242, 245);
+  border-radius: 5px;
+  height: 32px;
+  width: 95%;
+}
+.search-input:focus {
+  outline: none;
+}
+.list {
+  width: 100%;
+  height: 72px;
+  cursor: pointer;
+}
+
+.mx-4.bi-arrow-left-short {
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.greenBg {
+  background-color: rgb(0, 168, 132);
+}
+
+.rounded-people {
+  font-size: 20px;
+  border-radius: 50%;
+  color: white;
+  width: 65px;
+  height: 65px;
+}
+
+.bi-arrow-left-short {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 168, 132);
+}
+
+.xDivisor {
+  height: 1px;
+  width: 80%;
+  margin-left: 20%;
+  background-color: rgba(179, 179, 179, 0.39);
+}
+.new-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start center;
+  height: 50px;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#new-group {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+#no-border {
+  border: none;
+  background-color: rgb(240, 242, 245);
+}
+#no-border1 {
+  border: none;
+  background-color: rgb(240, 242, 245);
+}
+#search-new {
+  background-color: rgb(240, 242, 245);
+  border: none;
+  outline: none;
+}
+
+#p {
+  transform: translateX(30px);
+}
+
+#no-border2 {
+  scale: 1.8;
+}

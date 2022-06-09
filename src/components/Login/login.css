@@ -1,0 +1,64 @@
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  transform: translateY(-100px);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(78, 78, 78, 0.671) 1px 50px 70px;
+}
+.LoginButton1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 155px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(3, 177, 10) !important;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(78, 78, 78, 0.397) 8px 10px 20px;
+}
+.LoginButton2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 155px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(3, 177, 10) !important;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(78, 78, 78, 0.397) 8px 10px 20px;
+}
+
+#a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(214, 216, 218) !important;
+}
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login1 {
+  width: 90%;
+  max-width: 400px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

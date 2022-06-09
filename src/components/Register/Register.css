@@ -1,0 +1,125 @@
+#main-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  transform: translateY(-100px);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(78, 78, 78, 0.671) 1px 50px 70px;
+}
+.LoginButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 155px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(3, 177, 10) !important;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(78, 78, 78, 0.397) 8px 10px 20px;
+}
+
+body {
+  background-color: rgb(214, 216, 218) !important;
+}
+
+.login {
+  width: 90%;
+}
+
+.addImage {
+  height: 270px;
+  width: 270px;
+  margin-bottom: 25px;
+  margin-top: -40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-right: 25px;
+  border-radius: 500px;
+  background-color: white;
+  border: 5px dashed #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formDir {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .formDir {
+    flex-direction: column;
+  }
+  .addImage {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  formSize {
+    width: 100%;
+  }
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.addImageButton {
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: rgb(3, 177, 10) !important;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(78, 78, 78, 0.397) 8px 10px 20px;
+}
+
+#imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#Bfile {
+  opacity: 0;
+}
+
+.plus {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.formSize {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
